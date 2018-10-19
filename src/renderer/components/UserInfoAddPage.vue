@@ -96,8 +96,7 @@
             },
 
             getInfo() {
-                
-                let userInfo = localStorage.getItem('userInfo');
+                let userInfo = JSON.parse(localStorage.getItem('userInfo'));
 
                 //加载详情
                 let that = this
